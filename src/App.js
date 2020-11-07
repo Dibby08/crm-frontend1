@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Entry } from './pages/entry/entry.page';
+import { DefaultLayout } from './layout/DefaultLayout';
+// import { Entry } from './pages/entry/entry.page';
 
 
 function App() {
   return (
     <div className="App">
-      <Entry />
+      {/* <Entry /> */}
+      <DefaultLayout>//Dashboard</DefaultLayout>
     </div>
   );
 }
